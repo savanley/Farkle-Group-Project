@@ -335,7 +335,7 @@ public class FarkleProgram {
 		
 		Scanner input = new Scanner(System.in);
 		System.out.println("What is your name?");
-		String name = input.next();
+		String name = input.nextLine();
 		System.out.println("Enter 1 for easy or 2 for a hard opponent");
 		int choice = input.nextInt();
 		if (choice != 1 || choice != 2)
